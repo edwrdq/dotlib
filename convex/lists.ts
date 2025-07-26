@@ -355,6 +355,3 @@ export const deleteItemPublic = mutation({
     await ctx.db.delete(args.id);
   },
 });
-
-
-
